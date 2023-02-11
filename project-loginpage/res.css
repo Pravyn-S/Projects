@@ -1,0 +1,37 @@
+@media (max-width:800px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    header .logo {
+        font-size: 2rem;
+        text-align: center;
+        /* padding-right:4rem; */
+    }
+
+    .nav-input input {
+      
+        
+        height: 20px;
+        position: relative;
+        left: 2px;
+             
+        /* margin: 5px auto;/ */
+    }
+
+    .nav-input button {
+        position: relative;
+        left: 5px;
+        top: 7px;
+    }
+    .box{
+        flex-wrap: wrap;
+    }   
+    .container{
+        flex-wrap: wrap;
+    }
+}

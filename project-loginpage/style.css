@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Lato:ital,wght@0,400;1,300&family=Nunito&family=Poppins:wght@100&family=Roboto:ital@1&family=Tapestry&display=swap');
+
+:root {
+    --textcolor: #ff7200;
+}
+
+* {
+    margin: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    height: 100%;
+    background: url(bgimg/bgimage.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    color: var(--textcolor);
+    font-size: 3em;
+    font-weight: bolder;
+    width: 20%;
+    /* margin-top:6px; */
+    position: relative;
+    top: 10px;
+    /* margin-left: 1.3em; */
+    /* padding-left: 4rem; */
+    display: inline-block;
+    text-align: center;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-around;
+
+
+}
+
+ul li {
+    margin-top: 1.3rem;
+    ;
+    list-style-type: none;
+
+}
+
+ul li a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: var(--textcolor);
+}
+
+.nav-input {
+    width: 25%;
+}
+
+.nav-input input {
+    width: 70%;
+    /* border: var(--textcolor */
+    border: 2px solid var(--textcolor);
+    background: transparent;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    margin-top: 1.2rem;
+}
+
+.nav-input button {
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: orange;
+}
+
+.nav-input button:hover {
+    background-color: black;
+    color: white;
+
+    border-color: orange;
+}
+
+.container {
+    display: flex;
+    margin: 5rem 3rem;
+
+}
+
+.container-text {
+    width: 60%;
+}
+
+.container-text h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 4em;
+}
+
+.container-text p {
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.btn button {
+    background-color: var(--textcolor);
+    margin: 1rem 0;
+    width: 150px;
+    height: 45px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.btn button:hover {
+    background-color: black;
+    color: var(--textcolor);
+    border-color: var(--textcolor);
+}
+
+.box {
+    position: relative;
+    top: 60px;
+    left: 150px;
+    width: 300px;
+    height: 450px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    padding: 1.4em;
+}
+
+.box .btn {
+    display: block;
+    margin: .4em auto;
+    font-size: 1.3rem;
+    width: 90%;
+    font-weight: bold;
+
+    border-radius: 9px;
+    background-color: var(--textcolor);
+}
+
+.box .btn:hover {
+    background-color: white;
+    color: var(--textcolor);
+}
+
+.box input {
+    display: block;
+    margin: 1.6em auto;
+    font-size: 1.3rem;
+    width: 90%;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    text-transform: capitalize;
+}
+
+.box .btn-2 {
+    display: block;
+    margin: .4em auto;
+    font-size: 1.3rem;
+    width: 90%;
+    font-weight: bold;
+    border-radius: 9px;
+    background-color: var(--textcolor);
+}
+
+.box p {
+    text-align: center;
+}
+
+.box a {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.box .soc {
+    /* width: 80%; */
+    margin-top: 40px;
+}
+
+.soc .icon {
+    margin: 15px 30px;
+    display: inline-block;
+}
+.soc .icon:hover{
+    color: #ff7200;
+}
