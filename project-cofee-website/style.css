@@ -1,0 +1,107 @@
+@import('https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Poppins:wght@100&family=Roboto:ital@1&display=swap');
+/* espresso,cafe latte,cafe mocha,caramel macchiato,cappuccino */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;  
+}
+.hero-image{
+    background-image: url(imgs/bgoound.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.container{
+    width: 60%;
+    height: 150px;
+    /* border: 2px solid black; */
+    
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    padding: 1rem;
+    color: white;
+    font-size: 3rem;
+    
+}
+.hero-form{
+    width: 100%;
+    /* padding: 1rem; */
+    height: 100px;
+    /* border: 2px solid black; */
+}
+.hero-form input{
+    padding: 2px;
+    text-align: center;
+    display:inline-block;
+    width:80%;
+    height: 35%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+.hero-form button{
+    display: block;
+    margin: 1em auto;
+    font-size: 1.2rem;
+    width: 15%;
+    border: none;
+    height: 35%;
+    border-radius: 50px;
+
+}
+.hero-form button:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+   /* justify-content: center; */
+   /* align-items: center; */
+
+}
+.option-1,.option-2,.option-3,.option-4,.option-5,.option-6{
+    /* border: 2px solid black; */
+    width:40%;
+    /* height: 70%; */
+    padding: 2rem;
+    margin: 2rem 2rem;
+}
+.width{
+    width: 90%;
+    height:80%;
+}
+.opts h5{
+    text-align: center;
+    font-size: 2rem;
+}
+.opts p{
+    font-size:1.6rem;
+}
+
+@media (max-width:800px){
+    .container{
+        width: 90%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .hero-form button{
+        width: 100px;
+        height:25px;
+
+        border-radius:25px;
+
+    }
+    .option-1,.option-2,.option-3,.option-4,.option-5,.option-6{
+        /* border: 2px solid black; */
+        width:70%;
+        height: 70%;
+}
